@@ -21,7 +21,7 @@
 
 	<properties>
 		<java.version>11</java.version>
-		<jackson.version>2.9.9.3</jackson.version>
+		<jackson.version>2.10.1</jackson.version>
 		<commons-lang3.version>3.9</commons-lang3.version>
 	</properties>
 
@@ -46,7 +46,7 @@
 			<dependency>
 				<groupId>com.fasterxml.jackson.core</groupId>
 				<artifactId>jackson-databind</artifactId>
-				<version>${java.version}</version>
+				<version>${jackson.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
